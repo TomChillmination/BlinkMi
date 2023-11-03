@@ -16,29 +16,31 @@
 表示間隔や最大文字数は、下の入力ボックスからカスタマイズできます。
 また、表示中に「Stop」で一時停止、「Start」で再開、「Back1Blink」で一つ戻り、「Next1Blink」で一つ進むことができます。
 読み終えたら、「Back Browse」ボタンでこのページに戻ってください。</textarea>
+<div class="options">
     <label>
       <input type="checkbox" id="ignoreNewlinesCheckbox" value="ignore-newlines">
-      改行を無視する
-    </label>
-    <label>最大文字数:
-        <select id="maxcharsSelect">
-            <!-- <option value="1">1</option> -->
-            <!-- <option value="3">3</option> -->
-            <option value="5">5</option>
-            <option value="7">7</option>
-            <option value="10">10</option>
-        </select>
-    </label>
-    <label>表示間隔:
-        <select id="intervalSelect">
-            <!-- <option value="0.1">0.1秒</option> -->
-            <!-- <option value="0.2">0.2秒</option> -->
-            <!-- <option value="0.4">0.4秒</option> -->
-            <option value="0.6">0.6秒</option>
-            <option value="0.8">0.8秒</option>
-            <option value="1.0">1.0秒</option>
-        </select>
-    </label>
+      改行を無視する<br>
+        </label>
+        <label>最大文字数:
+            <select id="maxcharsSelect">
+                <!-- <option value="1">1</option> -->
+                <!-- <option value="3">3</option> -->
+                <option value="5">5</option>
+                <option value="7">7</option>
+                <option value="10">10</option>
+            </select>
+        </label><br>
+        <label>表示間隔:
+            <select id="intervalSelect">
+                <!-- <option value="0.1">0.1秒</option> -->
+                <!-- <option value="0.2">0.2秒</option> -->
+                <!-- <option value="0.4">0.4秒</option> -->
+                <option value="0.6">0.6秒</option>
+                <option value="0.8">0.8秒</option>
+                <option value="1.0">1.0秒</option>
+            </select>
+        </label><br>
+    </div>
     <button id="blink-button">Blink</button>
 </div>
 
