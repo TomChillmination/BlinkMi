@@ -14,24 +14,13 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding-top: 20px;
-    /* display: flex; */
-    /* flex-direction: column; */
+    width: 80%;
+    max-width: 500px;
     align-items: center;
     justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
     /* height: 100px; */
-}
-
-.blink-container{
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    padding-top: 20px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
-    height: 100px;
 }
 
 textarea {
@@ -40,6 +29,13 @@ textarea {
     border-radius: 4px;
     border: 1px solid #ddd;
     margin-bottom: 10px;
+    font-size: 2em;  /* Font size increased */
+    text-align: center;  /* Centered text */
+}
+
+.options {
+    text-align: center;  /* Centered options */
+    margin-bottom: 10px;  /* Space above the button */
 }
 
 button {
@@ -50,6 +46,7 @@ button {
     background-color: #008CBA;
     color: #fff;
     cursor: pointer;
+    font-size: 1.2em;  /* Font size increased */
 }
 
 button:hover {
@@ -62,8 +59,10 @@ button:hover {
     margin-bottom: 20px;
 }
 
-/* button-container意味ないかも */
-.button-container {
+/* buttons-container意味ないかも */
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
     position: fixed;  /* or position: sticky; */
     bottom: 0;
     width: 100%;
