@@ -30,7 +30,7 @@ textarea {
     border: 1px solid #ddd;
     margin-bottom: 10px;
      /*font-size: 2em;  Font size increased */
-    text-align: center;  /* Centered text */
+    text-align: left;  /* 左寄せに変更 */
 }
 
 .options {
