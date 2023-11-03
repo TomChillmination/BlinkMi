@@ -4,7 +4,7 @@ window.onload = function() {
     const startButton = document.getElementById('start-button');
     const backButton = document.getElementById('back-button');
     const nextButton = document.getElementById('next-button');
-    const backBrowseButton = document.getElementById('back-browse-button');
+    // const backBrowseButton = document.getElementById('back-browse-button');
 
     let text = sessionStorage.getItem('text');
     console.log(text);
@@ -49,9 +49,11 @@ window.onload = function() {
         updateBlinkingText();
     });
 
+    /*
     backBrowseButton.addEventListener('click', function() {
         window.location.href = 'index.html';
     });
+    */
 
     updateBlinkingText();
     intervalId = setInterval(updateBlinkingText, interval);
