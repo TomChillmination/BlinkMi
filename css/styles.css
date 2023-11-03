@@ -59,7 +59,6 @@ button:hover {
     margin-bottom: 20px;
 }
 
-/* buttons-container意味ないかも */
 .buttons-container {
     display: flex;
     justify-content: space-around;
