@@ -70,3 +70,8 @@ button:hover {
     padding: 10px;
     box-shadow: 0 -2px 5px rgba(0,0,0,0.1);  /* Optional: shadow for better UI */
 }
+
+.blink-button-container {
+    text-align: center;
+    margin-top: 10px;  /* 余白を追加して見た目を改善 */
+}
